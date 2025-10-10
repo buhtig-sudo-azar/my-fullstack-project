@@ -33,3 +33,10 @@ git push -u origin main
 git remote add origin https://github.com/buhtig-sudo-azar/my-fullstack-project.git
 git branch -M main
 git push -u origin main
+
+
+
+git remote set-url origin git@github.com:buhtig-sudo-azar/my-fullstack-project.git
+ssh -T git@github.com
+git branch -M main
+git push -f origin main
