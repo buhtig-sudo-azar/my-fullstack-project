@@ -1,9 +1,13 @@
 {
   "scripts": {
- "start": "parcel src/index.html --host 0.0.0.0",
-  "build": "parcel build src/index.html"
-},
+    "start": "parcel src/index.html --port 3000 --host 0.0.0.0",
+    "build": "parcel build src/index.html"
+  },
   "devDependencies": {
     "parcel": "^2.16.0"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
   }
 }
